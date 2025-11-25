@@ -27,6 +27,10 @@ body {
     margin-bottom: 5px;
 }
 
+.login-container span{
+
+    color: #f2b544;
+}
 .login-container h2 {
     font-size: 18px;
     font-weight: 300;
