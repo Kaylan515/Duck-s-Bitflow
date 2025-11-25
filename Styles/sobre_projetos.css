@@ -105,6 +105,7 @@ header {
 }
 
 .sobre-container h1{
+    margin-top: 80px;
     font-size: 3.8rem;
     padding-left: 270px;
     font-weight: 900;
@@ -122,4 +123,15 @@ header {
     max-width: 45%;
     margin-top: 20px;
     font-size: 1.7rem;
+}
+
+.foto{
+    position: absolute;
+    right: 300;
+    top: 150;
+}
+
+.foto img{
+    width: 420px;
+    border-radius: 10px;
 }
