@@ -103,3 +103,23 @@ header {
 .btn-login:hover {
   opacity: 0.7;
 }
+
+.sobre-container h1{
+    font-size: 3.8rem;
+    padding-left: 270px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.1;
+}
+
+.sobre-container span{
+    color:  #f4b83c;
+}
+
+.sobre-container p{
+    font-size: medium;
+    padding-left: 270px;
+    max-width: 45%;
+    margin-top: 20px;
+    font-size: 1.7rem;
+}
