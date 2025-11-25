@@ -17,11 +17,11 @@
 
 body {
   background: #000;
-  color: white;
+  color: white
 }
 
 header {
-  background: #f2b544;
+  background: #f4b83c;
   padding: 15px 0;
   width: 100%;
 }
@@ -50,6 +50,7 @@ header {
 .logo span {
   font-size: 20px;
   font-weight: bold;
+  color: rgb(0, 0, 0);
 }
 
 .nav-links {
@@ -71,9 +72,9 @@ header {
 }
 
 .botoes {
-  background-color: #f4b83c;
   display: flex;
   gap: 15px;
+  font-size: 18px;
 }
 
 .btn-outline {
