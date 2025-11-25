@@ -22,7 +22,7 @@ body {
 
 header {
   width: 100%;
-  background: #f4b83c;
+  background: #f2b544;
   padding: 15px 0;
 }
 
@@ -50,7 +50,7 @@ header {
 
 .logo span {
   font-weight: bold;
-  font-size: 1.4rem;
+  font-size: 20px;
   color: black;
 }
 
@@ -76,16 +76,17 @@ header {
   background-color: #f4b83c;
   display: flex;
   gap: 15px;
+  font-size: 18px;
 }
 
 .btn-outline {
-  padding: 15px 30px;
+  padding: 10px 25px;
   border: 2px solid #000;
   color: #000;
   border-radius: 8px;
   text-decoration: none;
   transition: 0.2s;
-  font-size: 1.5rem;
+  
 }
 
 .btn-outline:hover {
