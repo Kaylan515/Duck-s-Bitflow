@@ -193,6 +193,7 @@ header {
 .botoes {
     display: flex;
     gap: 15px;
+    font-size: 18px;
 }
 
 /* Botão contornado */
