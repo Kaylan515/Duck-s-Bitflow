@@ -21,18 +21,18 @@ body {
 }
 
 header {
-  width: 100%;
-  background: #f4b83c;
+  background: #f2b544;
   padding: 15px 0;
+  width: 100%;
 }
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   width: 90%;
   max-width: 1400px;
   margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
@@ -42,15 +42,14 @@ header {
 }
 
 .logo img {
-  border-radius: 50%;
   width: 60px;
   height: 60px;
+  border-radius: 50%;
 }
 
 .logo span {
+  font-size: 20px;
   font-weight: bold;
-  font-size: 1.4rem;
-  color: black;
 }
 
 .nav-links {
@@ -157,3 +156,6 @@ header {
   transform: scale(1.05);
 }
 
+a{
+  text-decoration: none;
+}
