@@ -229,3 +229,17 @@ span {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
 }
+/* Remove sublinhado e ajusta fonte do link da logo */
+.logo a {
+    text-decoration: none;
+    color: #000;              /* mesma cor da navbar */
+    font-size: 22px;          /* pode ajustar */
+    font-weight: 700;         /* deixa mais forte */
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.2s;
+}
+
+/* Efeito hover opcional */
+.logo a:hover {
+    opacity: 0.7;
+}

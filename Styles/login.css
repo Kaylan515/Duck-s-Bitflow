@@ -1,0 +1,172 @@
+/* Fundo geral */
+body {
+    margin: 0;
+    padding: 0;
+    background: #0d0d0d; /* fundo preto */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+/* Container do login */
+.login-container {
+      width: 90%;
+    max-width: 660px;
+    background: #1b1b1b;
+    margin: 100px auto;
+    padding: 100px 75px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 200, 0, 0.2);
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+/* Títulos */
+.login-container h1 {
+    font-size: 32px;
+    margin-bottom: 5px;
+}
+
+.login-container h2 {
+    font-size: 18px;
+    font-weight: 300;
+    color: #ccc;
+    margin-bottom: 25px;
+}
+
+/* Campos */
+.input-field {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.input-field label {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: #ccc;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 12px;
+    background: #0f0f0f;
+    border: 2px solid #333;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 15px;
+    transition: 0.2s;
+}
+
+.input-field input:focus {
+    border-color: #ffc400;
+    outline: none;
+    box-shadow: 0 0 6px rgba(255, 200, 0, 0.4);
+}
+
+/* Botão */
+.btn {
+    width: 100%;
+    padding: 12px;
+    background: #000;
+    color: #ffc400;
+    font-size: 17px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
+
+/* Texto inferior */
+.register-text {
+    margin-top: 18px;
+    font-size: 14px;
+    color: #aaa;
+}
+
+.register-text a {
+    color: #ffc400;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-text a:hover {
+    opacity: 0.7;
+}
+
+/* Fundo da navegação */
+header {
+    background: #f2b544 !important;
+    padding: 15px 0;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+}
+
+/* Barra de navegação */
+.navbar {
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.logo span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+/* Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.nav-links a:hover {
+    opacity: 0.6;
+}
+/* Remove sublinhado e ajusta fonte do link da logo */
+.logo a {
+    text-decoration: none;
+    color: #000;              /* mesma cor da navbar */
+    font-size: 22px;          /* pode ajustar */
+    font-weight: 700;         /* deixa mais forte */
+    font-family: Arial, Helvetica, sans-serif;
+    transition: 0.2s;
+}
+
+/* Efeito hover opcional */
+.logo a:hover {
+    opacity: 0.7;
+}
+
