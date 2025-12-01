@@ -1,23 +1,38 @@
+/* ================== RESET ================== */
 * {
-    margin: ;
-    padding: 45;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
-    background: #000000;
-    color: #ffffff;
-}
-
-.top-bar {
+    background: #000;
+    color: #fff;
     display: flex;
-    justify-content: space-between;
-    padding: 15px 25px;
-    align-items: center;
-    background: #e4b528;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding-top: 120px;
 }
 
+/* ================== NAVBAR ================== */
+header {
+    background: #f2b544;
+    padding: 15px 0;
+    width: 100%;
+}
+
+.navbar {
+    width: 90%;
+    max-width: 1400px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo */
 .logo {
     display: flex;
     align-items: center;
@@ -25,124 +40,158 @@ body {
 }
 
 .logo img {
-    width: 40px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
 }
 
-.hero {
-    text-align: center;
-    padding: 50px 20px;
-    background: radial-gradient(circle, #1f0d0d 0%, #000 80%);
+.logo span {
+    font-size: 20px;
+    font-weight: bold;
 }
 
-.hero h1 {
-    font-size: 35px;
-}
-
-.hero h1 span {
-    color: #ffcc32;
-}
-
-.hero p {
-    margin-top: 10px;
-    color: #ddd;
-}
-
-.tab-buttons {
-    margin: 30px auto;
+/* Links */
+.nav-links {
+    list-style: none;
     display: flex;
-    width: 260px;
-    background: #222;
-    border-radius: 30px;
-    padding: 5px;
+    gap: 40px;
 }
 
-.tab-buttons button {
-    flex: 1;
-    padding: 10px;
-    border: none;
-    border-radius: 30px;
-    background: none;
-    color: #fff;
-    cursor: pointer;
-}
-
-.tab-buttons .active {
-    background: #ffcc32;
+.nav-links a {
+    text-decoration: none;
     color: #000;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.2s;
 }
 
-.login-box {
-    width: 90%;
-    max-width: 450px;
-    background: #111;
-    margin: 0 auto;
-    padding: 25px;
-    border-radius: 15px;
+.nav-links a:hover {
+    opacity: 0.6;
 }
 
-.login-box input {
-    width: 100%;
-    margin: 10px 0 20px;
-    padding: 12px;
-    border: 1px solid #333;
-    background: #222;
-    color: #fff;
-    border-radius: 8px;
-}
-
-.btn-primary {
-    width: 100%;
-    padding: 14px;
-    background: #ffcc32;
-    color: #000;
-    border: none;
-    border-radius: 8px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-.form-section {
-    padding: 50px 20px;
-    text-align: center;
-}
-
-.form-section h2 span {
-    color: #ffcc32;
-}
-
-.orcamento-form {
-    max-width: 600px;
-    margin: auto;
-}
-
-.row {
+/* Botões */
+.botoes {
     display: flex;
     gap: 15px;
-    margin-bottom: 20px;
-}
-
-.row input {
-    flex: 1;
-    padding: 12px;
-    background: #222;
-    border: 1px solid #333;
-    color: #fff;
-    border-radius: 8px;
-}
-
-textarea {
-    width: 100%;
-    height: 140px;
-    padding: 12px;
-    background: #222;
-    border: 1px solid #333;
-    color: #fff;
-    border-radius: 8px;
-    resize: none;
-}
-
-.larger {
     font-size: 18px;
+}
+
+.btn-outline {
+    padding: 10px 25px;
+    border: 2px solid #000;
+    color: #000;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.btn-outline:hover {
+    background: #000;
+    color: #f2b544;
+}
+
+.btn-login {
+    padding: 10px 25px;
+    background: #000;
+    color: #f2b544;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.btn-login:hover {
+    opacity: 0.7;
+}
+
+
+/* ================== FORMULÁRIO ================== */
+.orcamento-container {
+    background: #0e0e0e;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 40px rgba(255, 196, 0, 0.6);
+    max-width: 780px;
+    width: 100%;
+    margin: 40px auto 80px;
+    text-align: center;
+    
+}
+
+/* Títulos */
+.orcamento-container h1 {
+    font-size: 34px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.orcamento-container h1 span {
+    color: #ffc400;
+}
+
+.subtitulo {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 30px;
+}
+
+/* Campos */
+.form-orcamento {
+    margin-top: 10px;
+}
+
+.input-field {
+    margin-bottom: 22px;
+    text-align: left;
+}
+
+.input-field label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #ffc400;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.input-field input,
+.input-field textarea {
+    width: 100%;
     padding: 16px;
-    margin-top: 20px;
+    border-radius: 10px;
+    background: #1b1b1b;
+    border: 2px solid transparent;
+    color: #eee;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.input-field input::placeholder,
+.input-field textarea::placeholder {
+    color: #686868;
+}
+
+.input-field input:focus,
+.input-field textarea:focus {
+    border-color: #ffc400;
+    box-shadow: 0 0 10px rgba(255, 196, 0, 0.7);
+    outline: none;
+}
+
+/* Botão */
+.btn-enviar {
+    width: 100%;
+    padding: 16px;
+    background: #000;
+    color: #ffc400;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 10px;
+    border: 2px solid #ffc400;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-enviar:hover {
+    background: #111;
+    box-shadow: 0 0 15px rgba(255, 196, 0, 0.7);
 }

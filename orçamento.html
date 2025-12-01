@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-br">
 
 <head>
@@ -27,36 +27,56 @@
             </ul>
 
             <div class="botoes">
-
-            </h1 faça o orçamento>
                 <a href="cadastro.html" class="btn-outline">Cadastre-se</a>
                 <a href="login.html" class="btn-login">Login</a>
             </div>
-<div class="orcamento-container">
-    <h1>Formulário de <span>Orçamento</span></h1>
-    <p class="subtitulo">Preencha os dados abaixo e entraremos em contato</p>
 
-    <form action="#" method="post" class="form-orcamento">
-
-        <div class="input-field">
-
-        <label for="nome">Nome</label>
-        <input type="text" id="nome" placeholder="Seu nome" required>
-
-        <label fro="email">email</label>
-        <input type="text" id="email" placeholder="seu@gmail" required>
-
-        <label for="telefone">telefone</label>
-        <input type="text" id="telefone" placeholder="(00)00000-0000" required>
-
-        <label fro="tipo do Projeto">tipo do progeto</label>
-        <input type="text" id="tipo" placeholder="Ex: Site institucional, E-commerce, App..." required>
-
-        <label for=">descrição">descrição do Projeto</label>
-        <textarea id="descricao" placeholder="Descreva detalhadamente seu projeto e necessidades..." required></textarea>
-
-        <button  type="submit" class="btn-enviar">
-        ✈ enviar solicitação
-        </button>
         </nav>
     </header>
+
+    <div class="orcamento-container">
+
+        <h1>Formulário de <span>Orçamento</span></h1>
+        <p class="subtitulo">Preencha os dados abaixo e entraremos em contato</p>
+
+        <form action="#" method="post" class="form-orcamento">
+
+            <!-- Nome -->
+            <div class="input-field">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" placeholder="Seu nome" required>
+            </div>
+
+            <!-- Email -->
+            <div class="input-field">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" placeholder="seu@gmail.com" required>
+            </div>
+
+            <!-- Telefone -->
+            <div class="input-field">
+                <label for="telefone">Telefone</label>
+                <input type="text" id="telefone" placeholder="(00) 00000-0000" required>
+            </div>
+
+            <!-- Tipo do Projeto -->
+            <div class="input-field">
+                <label for="tipo">Tipo do Projeto</label>
+                <input type="text" id="tipo" placeholder="Ex: Site institucional, E-commerce, App..." required>
+            </div>
+
+            <!-- Descrição -->
+            <div class="input-field">
+                <label for="descricao">Descrição do Projeto</label>
+                <textarea id="descricao" placeholder="Descreva detalhadamente seu projeto e necessidades..." required></textarea>
+            </div>
+
+            <!-- Botão -->
+            <button type="submit" class="btn-enviar">✈ Enviar Solicitação</button>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
