@@ -7,20 +7,36 @@
     <link rel="stylesheet" href="Styles/sobre_projetos.css">
 </head>
 <body>
-    <div class="menu">
-        <a href="home.html">Home</a>
-        <a href="sobre_projetos.html">Sobre Projetos</a>
-        <a href="orçamento.html">Orçamento</a>
-        <a href="clientes.html">Clientes</a>
-    </div>
+    <header>
+        <nav class="navbar">
+
+            <div class="logo">
+                <img src="img/Bitflow.png" alt="Logo">
+                <span>Duck's Bitflow</span>
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre_projetos.html">Sobre Projetos</a></li>
+                <li><a href="orçamento.html">Orçamentos</a></li>
+                <li><a href="clientes.html">Clientes</a></li>
+            </ul>
+
+            <div class="botoes">
+                <a href="#" class="btn-outline">Cadastre-se</a>
+                <a href="#" class="btn-login">Login</a>
+            </div>
+
+        </nav>
+    </header>
 
     <div class="sobre-container">
 
-        <h2>Como funciona o <br>
+        <h1>Como funciona o <br>
             processo para <br> 
             desenvolver um <br> 
             projeto com a <br> 
-            empresa</h2> <!--tem q ficar amarelo o nome "empresa", rosolver no css!-->
+            <span>empresa</span></h1> <!--tem q ficar amarelo o nome "empresa", rosolver no css!-->
 
             <p>Para iniciar um projeto com a empresa, seguimos um processo estruturado <br>
                 que garante clareza, eficiência e resultados de qualidade. Tudo começa com <br>
@@ -49,11 +65,12 @@
             </p>
 
             <div class="foto">
-                <img src="img/5c09785b0db777096eadbf4e354d9a5e.jpg">
+                <img src="img/tecno.jpg">
             </div>
-
-            <button class="btn">📞Orçamento</button>
+            <a href="orçamento.html">
+                <button class="btn">📞Orçamento</button>
+            </a>
     </div>
     
 </body>
-</html>
+</html> 
