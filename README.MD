@@ -21,24 +21,28 @@ O projeto foi desenvolvido com foco em:
 O site foi construído utilizando tecnologias front-end:
 
 - **HTML5** – Estrutura do site  
-- **CSS3** – Estilização, responsividade e efeitos visuais  
+- **CSS** – Estilização, responsividade e efeitos visuais  
 
 ---
 
 ## ⚙ Ferramentas e Recursos
 
 - **VS Code**  
-- **Git e GitHub** para versionamento  
+- **Git e GitHub**  
 - **Imagens e logos da marca Duck’s Bitflow**
 
 ---
 
-## 🔩 Como Rodar o Projeto
+## 🔩 Como Rodar o Projeto?
 
 ### 1. Clonar o repositório:
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
+```
 
-2. Acessar a pasta do projeto:
 
+### 2. Acessar a pasta do projeto:
+```bash
 cd nome-do-projeto
+
+```
