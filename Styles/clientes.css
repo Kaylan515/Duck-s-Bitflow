@@ -244,3 +244,74 @@ span {
 .logo a:hover {
     opacity: 0.7;
 }
+.form-container {
+    width: 90%;
+    max-width: 660px;
+    background: #1b1b1b;
+    margin: 100px auto;
+    padding: 100px 75px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(255, 200, 0, 0.2);
+    text-align: center;
+    position: relative;
+    z-index: 1;
+
+}
+
+/* Título */
+.form-container h2 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+
+.form-container span {
+
+    color: #f2b544;
+}
+
+.form-container h2 span {
+    color: #ffc400;
+}
+.input-field input {
+    width: 100%;             /* aumenta para ocupar toda a área */
+    padding: 15px;           /* deixa mais alta e confortável */
+    font-size: 18px;         /* aumenta a letra */
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    background: #2a2a2a;     /* fundo mais bonito */
+    color: #fff;
+    text-align: left;        /* texto alinhado à esquerda */
+    margin-top: 10px;
+}
+
+/* Label alinhado à esquerda também */
+.input-field label {
+    display: block;
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.input-field button{
+
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    background: #f2b544;       
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Efeito hover */
+.input-field button:hover {
+    background: #ffc400;      
+    transform: translateY(-3px);
+    box-shadow: 0 0 10px #ffc40080;
+}
