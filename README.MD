@@ -1,46 +1,42 @@
-🦆 Duck’s Bitflow — Site Institucional
+# 🦆 Duck’s Bitflow — Site Institucional
 
------------------------------
+---
 
-📌 Descrição do Projeto
+## 📌 Descrição do Projeto
 
-Este projeto consiste na criação do site institucional da Duck’s Bitflow, uma empresa especializada no desenvolvimento de sistemas, soluções web e automações.
+Este projeto consiste na criação do site institucional da **Duck’s Bitflow**, uma empresa especializada no desenvolvimento de sistemas, soluções web e automações.  
 O objetivo do site é apresentar a marca, seus serviços, seu portfólio e fornecer um canal de contato profissional, utilizando um design moderno e intuitivo.
 
 O projeto foi desenvolvido com foco em:
 
-Layout responsivo
+- Layout responsivo  
+- Interface moderna e minimalista  
+- Fácil manutenção e expansão  
+- Navegação simples e clara  
 
-Interface moderna e minimalista
+---
 
-Fácil manutenção e expansão
+## 🛠️ Tecnologias Utilizadas
 
-Navegação simples e clara
+O site foi construído utilizando tecnologias front-end:
 
--------- | --------
+- **HTML5** – Estrutura do site  
+- **CSS3** – Estilização, responsividade e efeitos visuais  
 
-🛠️ - Tecnologias Utilizadas
+---
 
-| O site foi construído utilizando tecnologias front-end:
+## ⚙ Ferramentas e Recursos
 
-HTML5 – Estrutura do site
+- **VS Code**  
+- **Git e GitHub** para versionamento  
+- **Imagens e logos da marca Duck’s Bitflow**
 
-CSS3 – Estilização, responsividade e efeitos visuais |
+---
 
+## 🔩 Como Rodar o Projeto
 
-
-⚙ - Ferramentas e Recursos
-
-| VS Code |
-
-| Git e GitHub para versionamento |
-
-| Imagens e logos da marca Duck’s Bitflow |
-
-🔩 Como Rodar o Projeto:
-
-1. Clonar o repositório:
-
+### 1. Clonar o repositório:
+```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
 
 2. Acessar a pasta do projeto:
