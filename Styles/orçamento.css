@@ -1,13 +1,13 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: ;
+    padding: 45;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
 
 body {
-    background: #000;
-    color: #fff;
+    background: #000000;
+    color: #ffffff;
 }
 
 .top-bar {
@@ -15,7 +15,7 @@ body {
     justify-content: space-between;
     padding: 15px 25px;
     align-items: center;
-    background: #ffcc32;
+    background: #e4b528;
 }
 
 .logo {
@@ -31,7 +31,7 @@ body {
 .hero {
     text-align: center;
     padding: 50px 20px;
-    background: radial-gradient(circle, #222 0%, #000 80%);
+    background: radial-gradient(circle, #1f0d0d 0%, #000 80%);
 }
 
 .hero h1 {
