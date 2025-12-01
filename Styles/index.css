@@ -169,6 +169,7 @@ header {
 .hero-img img {
   width: 680px;
   border-radius: 20px;
-  border: 4px solid #f4b83c;
-  box-shadow: 0 0 50px #f4b83c33;
+  border: 4px solid #8a600c;
+  box-shadow: 0 0 50px #f4b83c;
+  
 }
