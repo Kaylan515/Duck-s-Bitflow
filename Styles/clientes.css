@@ -156,6 +156,7 @@ header {
     display: flex;
     align-items: center;
     gap: 10px;
+
 }
 
 .logo img {
@@ -251,7 +252,7 @@ span {
     margin: 100px auto;
     padding: 100px 75px;
     border-radius: 15px;
-    box-shadow: 0 0 20px rgba(255, 200, 0, 0.2);
+    box-shadow: 0 0 20px #ffc80033;
     text-align: center;
     position: relative;
     z-index: 1;

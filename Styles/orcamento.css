@@ -1,0 +1,168 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #000000;
+    color: #ffffff;
+}
+
+/* 🔶 NAVBAR AMARELA */
+header {
+    width: 100%;
+    background: #f2b544;
+    padding: 15px 0;
+}
+
+.navbar {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* LOGO */
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+     width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+
+.logo span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+}
+
+/* LINKS DO MENU */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 18px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.nav-links a:hover {
+     opacity: 0.6;
+}
+
+/* BOTÕES */
+.botoes {
+    display: flex;
+    gap: 12px;
+}
+
+/* CADASTRAR — AMARELO */
+.btn-outline {
+    padding: 10px 25px;
+    border: 2px solid #000;
+    color: #000;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.btn-outline:hover {
+    background: #000;
+    color: #f2b544;
+}
+
+/* LOGIN — PRETO */
+.btn-login {
+   padding: 10px 25px;
+    background: #000;
+    color: #f2b544;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.2s;
+}
+
+.btn-login:hover {
+     opacity: 0.7;
+}
+
+/* ---------- FORMULÁRIO DE ORÇAMENTO ---------- */
+
+.orcamento-container {
+    width: 90%;
+    max-width: 750px;
+    margin: 50px auto;
+    background: #111;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 204, 50, 0.2);
+}
+
+.orcamento-container h1 {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 32px;
+}
+
+.orcamento-container h1 span {
+    color: #f2b544;
+}
+
+.subtitulo {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #ccc;
+}
+
+/* CAMPOS */
+.form-orcamento label {
+    display: block;
+    margin-bottom: 5px;
+    color: #f2b544;
+    font-weight: 500;
+}
+
+.form-orcamento input,
+.form-orcamento textarea {
+    width: 100%;
+    background: #222;
+    border: 1px solid #333;
+    padding: 12px;
+    color: #fff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* BOTÃO DE ENVIAR */
+.btn-enviar {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #f2b544;
+    border: none;
+    color: #000;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn-enviar:hover {
+    background: #ffcc32;
+    box-shadow: 0 0 20px #ffc80033;
+}
