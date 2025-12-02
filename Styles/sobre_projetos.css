@@ -19,7 +19,7 @@ body {
   background: #000;
   color: white
 }
-
+/* ------------------ HEADER ------------------ */
 header {
   background: #f4b83c;
   padding: 15px 0;
@@ -34,7 +34,7 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-
+/* ------------------ LOGO ------------------ */
 .logo {
   display: flex;
   align-items: center;
@@ -52,7 +52,7 @@ header {
   font-weight: bold;
   color: rgb(0, 0, 0);
 }
-
+/* ------------------ MENU DE NAVEGAÇÃO ------------------ */
 .nav-links {
   list-style: none;
   display: flex;
@@ -70,7 +70,7 @@ header {
 .nav-links a:hover {
   opacity: 0.6;
 }
-
+/* ------------------ BOTÕES DO HEADER ------------------ */
 .botoes {
   display: flex;
   gap: 15px;
@@ -103,14 +103,14 @@ header {
 .btn-login:hover {
   opacity: 0.7;
 }
-
+/* ------------------ SESSÃO - SOBRE ------------------ */
 .sobre-container h1{
-    margin-top: 80px;
-    font-size: 3.8rem;
+    margin-top: 80px;  /* Espaço acima do título */
+    font-size: 3.8rem;/* Tamanho grande da fonte */
     padding-left: 270px;
     font-weight: 900;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.1;
+    line-height: 1.1; /* Espaço entre linhas */
 }
 
 .sobre-container span{
@@ -118,37 +118,36 @@ header {
 }
 
 .sobre-container p{
-    font-size: 20px;
+    font-size: 20px;/* Tamanho base da fonte (sobrescrito depois) */
     padding-left: 270px;
-    max-width: 45%;
-    margin-top: 20px;
+    max-width: 45%;  /* Limita largura */
+    margin-top: 20px; /* Espaço acima do parágrafo */
     
 }
-
+/* ------------------ FOTO AO LADO DO TEXTO ------------------ */
 .foto{
-    position: absolute;
+    position: absolute;  /* Remove do fluxo normal e permite posicionar livremente */
     right: 250px;
     top: 350px;
 }
 
 .foto img{
-    width: 420px;
+    width: 420px;/* Largura fixa da imagem */
     border-radius: 10px;
     border: 4px solid #f4b83c;
     box-shadow: 0 0 50px #af8c46;
 }
-
-
+/* ------------------ BOTÃO PADRÃO ------------------ */
 .btn{
-  display: block;
-  margin: 0 auto;
+  display: block; /* Ocupa toda a linha (necessário para centralizar com margin auto) */
+  margin: 0 auto; /* Centraliza horizontalmente */
   background-color: rgb(70, 189, 66);
   color: rgb(248, 255, 238);
   padding: 12px 22px;
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 16px;   /* Tamanho da fonte */
   font-weight:  600;
   transition: 0.3s;
 }
