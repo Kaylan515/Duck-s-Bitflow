@@ -1,11 +1,5 @@
 :root {
-
-  --main-color: #f4b83c;
-  --black: #13131a;
-  --bg: #010103;
-  --bordap: 0.1rem solid rgba(255, 255, 255, 0.3);
   font-size: 10px;
-
 }
 
 * {
