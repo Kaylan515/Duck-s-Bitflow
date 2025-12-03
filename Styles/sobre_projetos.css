@@ -118,7 +118,7 @@ header {
 }
 
 .sobre-container p{
-    font-size: 20px;/* Tamanho base da fonte (sobrescrito depois) */
+    font-size: 15px;/* Tamanho base da fonte (sobrescrito depois) */
     padding-left: 270px;
     max-width: 45%;  /* Limita largura */
     margin-top: 20px; /* Espaço acima do parágrafo */
